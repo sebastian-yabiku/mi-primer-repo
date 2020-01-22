@@ -5,15 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Etiquetas</title>
+    <meta name="description" content="Mi primera pagina web desde codiGO">
+    <meta name="keywords" content="programacion, frontend, css, html, javascript">
+    <meta property="og:title" content="Titulo de mi pagina para facebook" />
+    <meta property="og:description" content="Descripcion de mi pagina para facebook" />
+    <meta property="og:image" itemprop="image" content="https://picsum.photos/200/300" />
+    <meta property="og:url" itemprop="url" content="https://sebastian-yabiku.github.io/mi-primer-repo/" />
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v5.0"></script>
     <header>
-        header mi primer repo - modificando!! otra vez
+        header
+        <div class="fb-share-button" data-href="https://sebastian-yabiku.github.io/mi-primer-repo/"
+            data-layout="button_count" data-size="small"><a target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsebastian-yabiku.github.io%2Fmi-primer-repo%2F&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore">Compartir</a></div>
     </header>
     <main>
-        main
+        <h1>Titulo</h1>
+        <img src="./dog.png" alt="Perro">
+
+        <section>
+            <h2>Titulo 2</h2>
+        </section>
     </main>
     <footer>
         footer
